@@ -1,0 +1,150 @@
+[
+  {
+    "name":"AI(artificial intelligence) ",
+    "description":"AI stands for artificial intelligence, which is the simulation of human intelligence processes by machines or computer systems. AI can mimic human capabilities such as communication, learning, and decision-making."
+  },
+  {
+    "name":"AI ethics",
+  "description":"AI ethics refers to the issues that AI stakeholders such as engineers and government officials must consider to ensure that the technology is developed and used responsibly. This means adopting and implementing systems that support a safe, secure, unbiased, and environmentally friendly approach to artificial intelligence. "
+  },
+  {
+    "name":"Algorithm",
+    "description":"An algorithm is a sequence of rules given to an AI machine to perform a task or solve a problem. Common algorithms include classification, regression, and clustering."
+  },
+  {
+    "name":"Voice Recognition",
+    "description":"also called speech recognition, is a method of human-computer interaction in which computers listen and interpret human dictation (speech) and produce written or spoken outputs. Examples include Apple’s Siri and Amazon’s Alexa, devices that enable hands-free requests and tasks"
+  },
+  {
+    "name":"Unsupervised learning",
+    "description":" a type of machine learning in which an algorithm is trained with unclassified and unlabeled data so that it acts without supervision."
+  },
+  {
+    "name":"Unstructured data",
+    "description":"data that is undefined and difficult to search. This includes audio, photo, and video content. Most of the data in the world is unstructured."
+  },
+  {
+    "name":"Turing Test",
+    "description":"Jaribio la Turing was devised by Alan Turing in the 1950s, and is designed to assess or detect the presence of intelligence in AI systems. The test is set up like a game between three players: a human judge, a human player, and the AI system we wish to test. The human player and the AI system are hidden from the sight of the human judge. The goal of the judge is to guess which of the two hidden players is the AI system. The judge does this by asking questions to both players, especially questions which might trick the AI system into revealing itself. If after multiple rounds of questioning, the judge cannot decide which player is the AI system, the AI system itself is said to be intelligent. Translation: liliundwa na Alan Turing katika miaka ya 1950s na imeundwa ili kutathmini au kutambua uwepo wa uerevu kwenye mifumo ya AI. Jaribio hilo limesanidiwa kama mchezo kati ya wahusika watatu: hakimu binadamu, mhusika binadamu na mfumo wa AI ambao tungependa kuufanyia jaribio. Mhusika binadamu na mfumo wa AI umefichwa usionekane machoni pa hakimu binadamu. Lengo la hakimu huyo ni kutabiri ni mhusika yupi kati ya wale wawili waliofichwa ndiye mfumo wa AI. Hakimu anafanya hivyo kwa kuuliza maswali kwa wahusika, hususan maswali ambayo yanaweza kuweka mfumo wa AI mtego ili ujifichue. Ikiwa baada ya raondi kadhaa za kuuliza maswali, hakimu haweza kuamua ni mhusika yupi ndiye mfumo wa AI, mfumo wa AI wenyewe unadaiwa kuwa mwerevu. "
+  },
+  {
+    "name":"Transfer Learning",
+    "description":"a machine learning system that takes existing, previously learned data and applies it to new tasks and activities."
+  },
+  {
+    "name":"Training data",
+    "description":"is the information or examples given to an AI system to enable it to learn, find patterns, and create new content."
+  },
+  {
+    "name":"Token",
+    "description":"A token is a basic unit of text that an LLM uses to understand and generate language. A token may be an entire word or parts of a word."
+  },
+  {
+    "name":" Cloud",
+    "description":"Wingu is more of a metaphor than a proper scientific term, the ‘Cloud’ refers to a host of scalable, elastic, distributed and delocalized data storage and computing services. The ‘Cloud’ allows a user to store, modify, upload and download various types of data on to a web server, which that user can access from anywhere via an app, web browser or another dedicated platform with an internet connection. It also allows businesses to develop, train and run AI systems, through a process known as ‘cloud computing’. A bit like renting space on a computer that you can always access, the ‘Cloud’ serves as the backbone of many of today’s AI technologies.Translation: ni neno la kimajazi zaidi kuliko lilivyo istilahi ya kisanyansi, ‘Wingu’ inarejelea hifadhi ya data inayoweza kuwekwa katika viwango, nyumbufu na iliyosambazwa na kufikishwa maeneo ya mbali na huduma za kupiga hesabu. ‘Wingu’ humwezesha mtumiaji kuhifadhi, kubadilisha, kupakia na kupakua aina mbalimbali za data kwenye seva ya wavuti, ambayo mtumiaji huyo anaweza kufikia akiwa popote pale kupitia programu, kivinjari cha wavuti au mfumo mwingine wa kipekee wenye muunganisho wa intaneti. Pia inaruhusu bishara kuunda na kufunza na kuendesha mifumo ya AI, kupitia mchakato unaofahamika kama ‘kupiga hesabu kwenye wingu’. Ni kama kukodisha nafasi kwenye kompyuta ambayo unaweza kutumia kila mara kufikia seva za ‘Wingu’ kama msingi wa teknolojia nyingi za AI za leo. "
+  },
+  {
+    "name":"Synthetic Data",
+    "description":"artificially created by computers or algorithms based on real-world data sets. This data type is widely recognized for its ability to train machine learning models, reduce biases in data sets, and navigate ethical and privacy concerns surrounding real data."
+  },
+  {
+    "name":"Symbolic AI",
+    "description":"AI ya Ishara- which is also called top-down, or ‘expert systems’, is a type of algorithmic process that follows explicit and transparent rules, given to the system by human programmers, to compute the solution to a problem. Symbolic AI constitutes the original and oldest approach to Artificial Intelligence, but it’s still used today in many AI applications, especially in situations where high levels of human control are desirable, such as in the case of driverless cars.Translation: ambayo pia inaitwa juu-chini au ‘mifumo ya kitaalamu’ ni aina ya mchakato wa kialgorithi inayofuata sheria bayana na wazi, inayowekwa kwenye mfumo na wanaprogramu binadamu, ili kufanya hesabu ya suluhu kwa tatizo. AI ya Ishara inajumuisha mbinu halisi na ya zamani zaidi ya umaizi bandia, lakini bado inatumiwa leo katika programu nyingi za AI, hususan katika hali ambapo viwango vya juu vya udhibiti wa binadamu vinatakikana, kama vile katika hali za magari yanayoendeshwa bila dereva binadamu."
+  },
+  {
+    "name":"Supervised learning",
+    "description":"is a type of machine learning in which classified output data is used to train the machine and produce the correct algorithms. It is much more common than unsupervised learning. "
+  },
+  {
+    "name":"Structured query language",
+    "description":"The acronym SQL, pronounced either 'sequel' or 'S-Q-L',stands for Structured Query Language. It is a universal programming language used to manage relational databases. Many relational database management systems (RDBMS) support the SQL language, including MySQL, SQL Server, and Oracle."
+  },
+  {
+    "name":"Structured data",
+    "description":"data that is defined and searchable. This includes data like phone numbers, dates, and product SKUs. "
+  },
+  {
+    "name":"Sentiment Analysis",
+    "description":"Also known as opinion mining, sentiment analysis is the process of using AI to analyze the tone and opinion of a given text."
+  },
+  {
+    "name":"Reinforcement learning",
+    "description":"is a type of machine learning in which an algorithm learns by interacting with its environment and then is either rewarded or penalized based on its actions. "
+  },
+  {
+    "name":"Recruitment Tools ",
+    "description":"Zana za Uajiri denote the use of Artificial Intelligence to automate some part of the hiring process. This can include the automatic scheduling of interviews with candidates, the shortlisting of candidates (through analysis and recommendation), candidate matching, chatbots, or AI-based phone or video interviewers. Today, most recruitment processes are not fully automated, working instead to provide decision assistance to the humans in charge of the recruitment process. Translation: zinahusu matumizi ya umaizi bandia kufanya sehemu fulani ya mchakato wa kuajiri watu kufanywa kiotomatiki. Hii inajumuisha kuratibu mahojiano kiotomatiki na waliotuma maombi, kuandaa orodha ya watu waliohitimu (kupitia uchambuzi na mapendekezo), kulinganisha waliotuma maombi, boti za gumzo au waendeshaji mahojiano kwenye simu au video inayoendeshwa na AI. Leo, michakato mingi ya kuajiri haifanyiki kiotomatiki kikamilifu, badala yake tunajitahidi kutoa usaidizi wa kufanya maamuzi kwa binadamu wanaosimamia mchakato wa kuajiri. "
+  },
+  {
+    "name":"Quantum computing",
+    "description":"Quantum computing is the process of using quantum-mechanical phenomena such as entanglement and superposition to perform calculations. "
+  },
+  {
+    "name":"Prompt",
+    "description":"A prompt is an input that a user feeds to an AI system in order to get a desired result or output. "
+  },
+  {
+    "name":"Prescriptive analytics",
+    "description":"type of analytics that uses technology to analyze data for factors such as possible situations and scenarios, past and present performance, and other resources to help organizations make better strategic decisions. "
+  },
+  {
+    "name":"Predictive analytics",
+    "description":"type of analytics that uses technology to predict what will happen in a specific time frame based on historical data and patterns. "
+  },
+  {
+    "name":"Pattern recognition",
+    "description":"method of using computer algorithms to analyze, detect, and label regularities in data. This informs how the data gets classified into different categories. "
+  },
+  {
+    "name":"Overfitting",
+    "description":"occurs in machine learning training when the algorithm can only work on specific examples within the training data. A typical functioning AI model should be able to generalize patterns in the data to tackle new tasks."
+  },
+  {
+    "name":"Neural network",
+    "description":"A neural network is a deep learning technique designed to resemble the human brain’s structure. Neural networks require large data sets to perform calculations and create outputs, which enables features like speech and vision recognition. "
+  },
+  {
+    "name":"Natural Language Processing (NLP)",
+    "description":"Uchakataji wa Lugha Halisi (NLP) is the branch of Artificial Intelligence research dedicated to giving computers the ability to understand text and spoken words in ways similar to humans. Typically, NLP combines traditional linguistic methods such as the rule-based modelling of a language, with statistical or machine learning methods. Traditionally a hard problem in AI research, natural language processing has greatly improved with the use of machine learning, and can be found in many everyday AI applications such as voice assistants, speech-to-text dictation software, automated translation and chatbots.Translation:  ni tawi la utafiti wa umaizi bandia linaloshughulikia kuzipa kompyuta uwezo wa kuelewa matini na maneno yanayozungumzwa na binadamu. Kwa kawaida, NLP hujumuisha mbinu za kale za kisiimu kama vile miundo iliyojikita katika kanuni ya lugha, na mbinu za takwimu au za mafunzo ya mashine. Ikiwa ni tatizo gumu kwa kawaida katika utafiti wa AI, uchakataji wa lugha halisi umeimarika pakubwa kwa matumizi ya mafunzo ya mashine, na unaweza kupatikana katika programu nyingi za AI za kila siku kama vile miratibu ya sauti, programu za sauti hadi matini, tafsiri otomatiki na boti za gumzo. "
+  },
+  {
+    "name":"Moravec’s Paradox",
+    "description":"Kinaya ya Moravec describes a surprising gap between the intellectual capacities of humans and even advanced AI systems, where AI systems can be seen to excel in a number of traditionally ‘difficult’ human fields (for instance, statistical reasoning, pattern recognition or playing checkers), but perform poorly in many areas that most humans can easily master: perception, mobility, common sense and value judgements, to name a few. Translation: hueleza tofauti ya kushangaza iliyopo kati ya uwezo wa kiakili wa binadamu na hata mifumo ya kina ya AI, ambapo mifumo ya AI inaweza kuonekana kufanikiwa katika nyanja ambazo kwa kawaida ni ‘ngumu’ kwa binadamu (kwa mfano, kutoa mantiki ya takwimu, utambuzi wa mitindo au kucheza drafu), lakini hufanya vibaya katika nyanja nyingi ambapo binadamu anaweza kudhibiti kwa urahisi: mtazamo, uhamaji,maarifa ya kawaida, uamuzi wa kiadilifu, na kadhalika."
+  },
+  {
+    "name":"Metadata",
+    "description":"data about data. It describes attributes of your data that can be important to know, but may not be immediately relevant to your data's primary function. This could include information about how data was collected, where it's stored, and how it's used."
+  },
+  {
+    "name":"Massive Open Online Courses (MOOCs) ",
+    "description":"Kozi Kubwa Wazi za Mtandaoni (MOOC) are completely distributed and virtual learning platforms, available to students globally. One of the principal keys to life- long learning, MOOCs enable students, and more generally individuals, to engage with and learn from toptier professionals in both the sciences and humanities with online courses. MOOCs come in many forms, from completely self-directed platforms that allow students to work through the course at their own pace, to accredited professional degree programs that allow students to bolster their formal education.Translation: ni mifumo ya mafunzo mtandaoni ambayo husambazwa kikamilifu, inayopatika kwa wanafunzi kote duniani. Mojawapo ya kanuni muhimu za maisha- mafunzo marefu, MOOC huwezesha wanafunzi na watu binafsi kwa ujumla zaidi kushiriki na kujifunza kutoka kwa wataalamu bora katika kozi za mtandaoni za sayansi na jamii. MOOC huja kwa namna nyingi, kutoka mifumo za kujielekeza kikamilifu inayowezesha wanafunzi kufanya kazi wakati wa kozi hiyo kwa mwendo wao binafsi, hadi programu zilizoidhinishwa za shahada ya kitaalama. Zinazowezesha wanafunzi kuboresha elimu yao rasmi. "
+  },
+  {
+    "name":"Machine Learning",
+    "description":"Mafunzo ya Mashine is also called ‘data-driven’ or ‘bottom-up’ AI, machine learning is an adaptive type of algorithmic process which allows computers to learn from experience, learn by example, or learn by analogy, using large amounts of data, where the learning processes improve the performance of the system over time. Closely related to Artificial Neural Networks (ANNs), many machine learning practices are inspired by the structure of the human brain. ANNs use very simple and highly connected processors (called neurons) with weighted links, which pass signals from one neuron to another. The learning process occurs when these weights are adjusted as the system receives training data input, eventually storing the ‘trained’ rules required for correctly solving a given problem — such as classification or pattern recognition — which are used in decision-making when new data is fed into the system.Translation: inaitwa pia AI ‘inayoendeshwa na data’ au ‘chini-juu’, mafunzo ya mashine ni aina tohozi ya mchakato wa kialgorithi inayowezesha kompyuta kujifunza kutokana na uzoefu, kujifunza kwa mfano, au kujifunza kwa mlinganisho, kwa kutumia kiasi kikubwa cha data, ambapo michakato ya kujifunza huboresha utendaji wa mfumo huo kwa muda. Ikiwa inahusiana kwa karibu na Mitandao Neurali Bandia (ANN), mafunzo mengi ya mashine huchochewa na muunda wa ubongo wa binadamu. ANN hutumia vichakataji rahisi na zilizounganishwa kwa hali ya juu (zinazoitwa neuroni) zenye viungo vilivyo na uzani, ambavyo hupitia ishara kutoka kwenye neuroni moja hadi nyingine. Mchakato wa kujifunza hutokea wakati mizani hii imerekebishwa mfumo huwa unaendelea kupokea mafunzo kuweka data, hatimaye kuhifadhi sheria ‘zilizofunzwa’ zinazohitajika ili kutatua tatizo fulani kwa usahihi — kama vile uanishaji au utambuzi wa mitindo — ambayo hutumiwa katika kufanya uamuzi wakati data mpya imeingizwa kwenye mfumo."
+  },
+  {
+    "name":"Large language model",
+    "description":"A large language model (LLM) is an AI model that has been trained on large amounts of text so that it can understand language and generate human-like text. Limited memory Limited memory is a type of AI system that receives knowledge from real-time events and stores it in the database to make better predictions. "
+  },
+  {
+    "name":"Hyperparameter",
+    "description":"A hyperparameter is a parameter, or value, that affects the way an AI model learns. It is usually set manually outside of the model. Image recognition Image recognition is the process of identifying an object, person, place, or text in an image or video."
+  },
+  {
+    "name":"Halucination",
+    "description":"refers to an incorrect response from an AI system, or false information in an output that is presented as factual information."
+  },
+  {
+    "name":"Guardrails",
+    "description":"restrictions and rules placed on AI systems to make sure that they handle data appropriately and don't generate unethical content. "
+  },
+  {
+    "name":"Generative AI",
+    "description":"Generative AI is s type of technology that uses AI to create content, including text, video, code and images. A generative AI system is trained using large amounts of data, so that it can find patterns for generating new content."
+  },
+  {
+    "name":"Fiber Optic",
+    "description":"Muunganisho wa Faiba is a type of technology used to transmit information as pulses of light through strands of fiber made of glass or plastic over long distances. Because fiber optic cables transfer data signals in the form of light rather than by using the traditional method of electrical signals, the information is able to travel faster, over longer distances, and without the risk of electromagnetic interference (for instance, from storms or strong winds). Fiber optic cables are part of the essential infrastructure of modern-day AI practices.Translation: ni aina ya teknolojia inayotumiwa kuhamisha taarifa kama mipigo ya mwangaza kwenye mikamba ya faiba iliyoundwa kwa glasi au plastiki kwa umbali mrefu. Kwa sababu kebo za muunganisho wa faiba huhamisha ishara ya data katika muundo wa mwangaza badala ya kutumia mbinu za kale za ishara za umeme, taarifa inaweza kusafiri haraka zaidi, kwa masafa marefu zaidi na bila hatari ya hitilafu za sumaku- umeme (kwa mfano, kutokana na dhoruba au upepo mkali). Kebo za muunganisho wa faiba ni sehemu ya muun"
+  }
+]
