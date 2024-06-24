@@ -4,26 +4,30 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "rgba(0, 40, 83, 1)",
-        secondary: "#00f6ff",
-        dimWhite: "#bebebe",
-        dimBlue: "rgba(9, 151, 124, 0.1)",
-        grey: "#1f2b3e",
-        lightblue: "#00F6FF",
-        darkgrey: "#374357",
-        light: "#cee8ff",
+        black: "#000201",
+        gray: {
+          100: "#FCFCFC",
+          200: "#F9F9F9",
+          500: "#6A6F6D",
+          600: "#4F5653",
+          700: "#363D3A",
+        },
+        blue: {
+          200: "#397EBF",
+          800: "#203A73",
+        },
+        yellow: "#F7C440",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
-
       screens: {
-        xs: "480px",
-        ss: "620px",
-        sm: "768px",
-        md: "1060px",
-        lg: "1280px",
-        xl: "1700px",
+        xs: "480px", // Extra small screen size
+        ss: "620px", // Small screen size
+        sm: "768px", // Small medium screen size
+        md: "1060px", // Medium screen size
+        lg: "1280px", // Large screen size
+        xl: "1700px", // Extra large screen size
       },
     },
   },

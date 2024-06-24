@@ -1,19 +1,28 @@
 import './App.css'
 import About from './components/about';
 import Header from './components/header/header';
-import Input from './components/input';
 import './App.css'
+import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
+import Search from './components/search/Search';
+import AvailableWords from './components/availableWords/AvailableWords';
 function App() {
   return (
-    <div className='app'>
-      <div className='gradient__bg'>
-        <Header />
-        <Input />
-        <About />
-        
-
+    <main>
+      <div className='main'>
+        <div className='gradient' />
       </div>
-    </div>
+
+      <div className='app'>
+        <Navbar />
+        <Header />
+        <About />
+        <Search />
+        <AvailableWords />
+        <Footer />
+      </div>
+
+    </main>
   );
   
 }
