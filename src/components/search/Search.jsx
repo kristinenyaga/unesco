@@ -1,6 +1,24 @@
 import { BsSearch } from 'react-icons/bs'
-
+import { useState } from 'react';
 const Search = () => {
+   const [response, setResponse] = useState(null);
+    const handleFindInformation = async () => {
+    try {
+      const res = await fetch('http://localhost:5000/find-information', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify('algorithm' ),
+      });
+      const data = await res.json();
+      setResponse(data.response);
+    } catch (error) {
+      console.error('Error:', error);
+    }
+    };
+  handleFindInformation();
+  console.log(response)
   return (
     <div className=' mt-32 max-w-[1300px] mx-auto '>
       <p className='mb-5 text-base font-medium tracking-wide text-center text-gradient-to-t from-yellow to-blue-900 text-yellow text-gradient'>
