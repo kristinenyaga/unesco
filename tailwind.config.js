@@ -13,8 +13,10 @@ export default {
           700: "#363D3A",
         },
         blue: {
+          50: "rgba(57,126,191,0.05)",
           200: "#397EBF",
           800: "#203A73",
+          900: "#172A65",
         },
         yellow: "#F7C440",
       },
@@ -26,7 +28,7 @@ export default {
         ss: "620px", // Small screen size
         sm: "768px", // Small medium screen size
         md: "1060px", // Medium screen size
-        lg: "1280px", // Large screen size
+        lg: "1320px", // Large screen size
         xl: "1700px", // Extra large screen size
       },
     },

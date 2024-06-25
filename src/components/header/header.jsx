@@ -6,7 +6,7 @@ const Header = () => {
   //   window.scrollTo({ top:800, behavior: 'smooth' });
   // }
   return ( 
-    <div className='text-black flex max-w-[1300px] mt-40 font-poppins m-auto' id='home'>
+    <div className='text-black flex max-w-[1300px] p-20 lg:p-0 mt-40 font-poppins m-auto' id='home'>
       <div className='flex w-screen justify-between'>
         <div className='flex flex-col gap-8 max-w-[520px] mt-10'>
           <p className='text-[14px] bg-gray-200 p-3 w-28 text-center rounded-md text-blue-200'>AI Platform</p>
