@@ -14,7 +14,7 @@ const AvailableWords = ({ handleWordClick }) => {
           {firstHalf.map((word, index) => (
             <p
               key={index}
-              className="border-b border-gray-300 text-[14px] text-gray-600 p-2 mb-2 cursor-pointer hover:text-gray-700 hover:text-[15px] hover:border"
+              className="border-b border-gray-300 text-[14px] text-gray-700 p-2 mb-2 cursor-pointer hover:text-gray-700 hover:text-[15px] hover:border"
               onClick={() => handleWordClick(word.name)}
             >
               {word.name}
@@ -25,7 +25,7 @@ const AvailableWords = ({ handleWordClick }) => {
           {secondHalf.map((word, index) => (
             <p
               key={index}
-              className="border-b border-gray-300 p-2 text-[14px] text-gray-600 mb-2 cursor-pointer hover:text-gray-700 hover:text-[15px] hover:border"
+              className="border-b border-gray-300 p-2 text-[14px] text-gray-700 mb-2 cursor-pointer hover:text-gray-700 hover:text-[15px] hover:border"
               onClick={() => handleWordClick(word.name)}
             >
               {word.name}

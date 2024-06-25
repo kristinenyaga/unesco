@@ -48,19 +48,19 @@ const Search = ({ selectedWord, handleSearch, translation }) => {
       <div className='mt-10 flex justify-between px-10'>
         <div ref={inputRef}>
           <p className='tracking-wide text-blue-800 font-medium text-center mb-3'><span className='font-semibold text-lg'>Kiswahili</span> Explanation</p>
-          <div className='bg-gray-100 border border-gray-300 overflow-y-hidden w-[500px] h-[400px] rounded-md'>
+          <div className='bg-gray-100 text-gray-700 border border-gray-300 overflow-y-hidden w-[500px] h-[400px] rounded-md'>
             {/* Kiswahili translation can go here */}
               {translation && (
-              <div className='p-4'>{translation.kiswahili}</div>
+              <div className='p-4 tracking-wide leading-7 h-[100%] overflow-y-auto scrollcontainer'>{translation.kiswahili}</div>
             )}
           </div>
         </div>
         {/* <div className='w-0.5 rounded-md bg-yellow' /> */}
         <div>
           <p className='tracking-wide text-blue-800 font-medium text-center mb-3'><span className='font-semibold text-lg'>English</span> Explanation</p>
-          <div className='bg-gray-100 border border-gray-300 overflow-y-hidden w-[500px] h-[400px] rounded-md'>
+          <div className='bg-gray-100 text-gray-700 border border-gray-300 overflow-y-hidden w-[500px] h-[400px] rounded-md'>
             {translation && (
-              <div className='p-4'>{translation.english}</div>
+              <div className='p-4 tracking-wide leading-7 h-[100%] overflow-y-auto scrollcontainer'>{translation.english}</div>
             )}
           </div>
         </div>

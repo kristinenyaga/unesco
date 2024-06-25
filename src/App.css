@@ -54,3 +54,21 @@
   }
 }
 
+.scrollcontainer::-webkit-scrollbar{
+  width: 4px;
+}
+
+.scrollcontainer::-webkit-scrollbar-track{
+  background: #c6c9cf;
+  border-radius: 20px;
+}
+
+.scrollcontainer::-webkit-scrollbar-thumb{
+  background: #888ea8;
+  border-radius: 10px;
+  width: 5px;
+}
+
+.scrollcontainer::-webkit-scrollbar:hover{
+  background: #e0e6ed;
+}
