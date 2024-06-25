@@ -4,6 +4,7 @@ import { BsSearch } from 'react-icons/bs';
 const Search = ({ selectedWord, handleSearch, translation }) => {
   const [inputValue, setInputValue] = useState('');
   const inputRef = useRef(null);
+  console.log(translation)
 
   useEffect(() => {
     if (selectedWord) {
@@ -27,8 +28,8 @@ const Search = ({ selectedWord, handleSearch, translation }) => {
   return (
     <div className='mt-24 max-w-[1300px] mx-auto' id='search'>
       <p className='mb-5 text-sm font-bold tracking-wide text-center text-gray-500'>
-        Word Translation</p>
-      <p className='text-center text-[28px] mb-7 text-black max-w-[500px] mx-auto'>Enter a word to get its translation in <span className='text-blue-200 font-medium'>Kiswahili and English</span></p>
+        Word explanation</p>
+      <p className='text-center text-[28px] mb-7 text-black max-w-[500px] mx-auto'>Enter a word to get its explanation in <span className='text-blue-200 font-medium'>Kiswahili and English</span></p>
       <form className="mb-5 relative" onSubmit={handleSubmit}>
         <div>
           <input
@@ -46,17 +47,20 @@ const Search = ({ selectedWord, handleSearch, translation }) => {
       </form>
       <div className='mt-10 flex justify-between px-10'>
         <div ref={inputRef}>
-          <p className='tracking-wide text-blue-800 font-medium text-center mb-3'><span className='font-semibold text-lg'>Kiswahili</span> Translation</p>
+          <p className='tracking-wide text-blue-800 font-medium text-center mb-3'><span className='font-semibold text-lg'>Kiswahili</span> Explanation</p>
           <div className='bg-gray-100 border border-gray-300 overflow-y-hidden w-[500px] h-[400px] rounded-md'>
             {/* Kiswahili translation can go here */}
+              {translation && (
+              <div className='p-4'>{translation.kiswahili}</div>
+            )}
           </div>
         </div>
         {/* <div className='w-0.5 rounded-md bg-yellow' /> */}
         <div>
-          <p className='tracking-wide text-blue-800 font-medium text-center mb-3'><span className='font-semibold text-lg'>English</span> Translation</p>
+          <p className='tracking-wide text-blue-800 font-medium text-center mb-3'><span className='font-semibold text-lg'>English</span> Explanation</p>
           <div className='bg-gray-100 border border-gray-300 overflow-y-hidden w-[500px] h-[400px] rounded-md'>
             {translation && (
-              <div className='p-4'>{translation}</div>
+              <div className='p-4'>{translation.english}</div>
             )}
           </div>
         </div>
