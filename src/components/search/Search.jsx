@@ -5,7 +5,6 @@ const Search = ({ selectedWord, handleSearch, translation }) => {
   const [inputValue, setInputValue] = useState('');
   const [response, setResponse] = useState('')
   const inputRef = useRef(null);
-  console.log(translation)
 
   useEffect(() => {
     if (selectedWord) {
@@ -87,6 +86,14 @@ const Search = ({ selectedWord, handleSearch, translation }) => {
           <div className='bg-gray-100 text-gray-700 border border-gray-300 overflow-y-hidden w-[500px] h-[400px] rounded-md'>
             {translation && (
               <div className='p-4 tracking-wide leading-7 h-[100%] overflow-y-auto scrollcontainer'>{translation.english}</div>
+            )}
+          </div>
+        </div>
+        <div>
+          <p className='tracking-wide text-blue-800 font-medium text-center mb-3'><span className='font-semibold text-lg'>English</span> Explanation</p>
+          <div className='bg-gray-100 text-gray-700 border border-gray-300 overflow-y-hidden w-[500px] h-[400px] rounded-md'>
+            {response && (
+              <div className='p-4 tracking-wide leading-7 h-[100%] overflow-y-auto scrollcontainer'>{response}</div>
             )}
           </div>
         </div>
