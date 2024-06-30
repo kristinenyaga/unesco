@@ -3,6 +3,7 @@ import { BsSearch } from 'react-icons/bs';
 
 const Search = ({ selectedWord, handleSearch, translation }) => {
   const [inputValue, setInputValue] = useState('');
+  const [response, setResponse] = useState('')
   const inputRef = useRef(null);
   console.log(translation)
 
@@ -19,10 +20,35 @@ const Search = ({ selectedWord, handleSearch, translation }) => {
   const handleInputChange = (e) => {
     setInputValue(e.target.value);
   };
+    const postData = async (inputValue) => {
+    const url = 'http://127.0.0.1:5000/find-information';
+    const data = { query: inputValue };
+
+    try {
+      const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const result = await response.json();
+      console.log(result);
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     handleSearch(inputValue);
+    postData(inputValue);
+    
   };
 
   return (
