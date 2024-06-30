@@ -16,16 +16,12 @@ function App() {
   const splitDescription = (description) => { 
     const translationKeyword = "Translation:"
     const index = description.indexOf(translationKeyword);
-    console.log(index)
       if (index === -1) {
     return { english: description, kiswahili: null };
   }
 
   const english = description.slice(0, index).trim();
   const kiswahili = description.slice(index + translationKeyword.length).trim();
-
-    console.log("english", english)
-    console.log("kiswahili", kiswahili)
     return { english, kiswahili };
   }
 
