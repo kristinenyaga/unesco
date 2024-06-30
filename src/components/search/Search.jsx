@@ -1,3 +1,4 @@
+import { set } from 'date-fns';
 import { useState, useEffect, useRef } from 'react';
 import { BsSearch } from 'react-icons/bs';
 
@@ -37,7 +38,7 @@ const Search = ({ selectedWord, handleSearch, translation }) => {
       }
 
       const result = await response.json();
-      console.log(result.response[0]);
+      setResponse(result.response[0]);
     } catch (error) {
       console.error('Error:', error);
     }
