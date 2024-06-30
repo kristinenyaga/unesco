@@ -44,6 +44,7 @@ const Search = ({ selectedWord, handleSearch, translation }) => {
   };
 
   const handleSubmit = (e) => {
+    setResponse('')
     e.preventDefault();
     handleSearch(inputValue);
     postData(inputValue);
