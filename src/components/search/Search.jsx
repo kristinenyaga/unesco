@@ -37,7 +37,7 @@ const Search = ({ selectedWord, handleSearch, translation }) => {
       }
 
       const result = await response.json();
-      console.log(result.response);
+      console.log(result.response[0]);
     } catch (error) {
       console.error('Error:', error);
     }
