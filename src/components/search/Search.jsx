@@ -20,7 +20,7 @@ const Search = ({ selectedWord, handleSearch, translation }) => {
   const handleInputChange = (e) => {
     setInputValue(e.target.value);
   };
-    const postData = async (inputValue) => {
+  const postData = async (inputValue) => {
     const url = 'http://127.0.0.1:5000/find-information';
     const data = { query: inputValue };
 
@@ -38,7 +38,7 @@ const Search = ({ selectedWord, handleSearch, translation }) => {
       }
 
       const result = await response.json();
-      console.log(result);
+      console.log(result.response);
     } catch (error) {
       console.error('Error:', error);
     }
