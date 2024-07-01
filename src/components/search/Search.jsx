@@ -1,9 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
 import { BsSearch } from 'react-icons/bs';
 
-const Search = ({ selectedWord, handleSearch, translation }) => {
+const Search = ({ selectedWord, handleSearch, englishText,kiswahiliText }) => {
   const [inputValue, setInputValue] = useState('');
-  const [response, setResponse] = useState('')
   const inputRef = useRef(null);
 
   useEffect(() => {
@@ -19,36 +18,10 @@ const Search = ({ selectedWord, handleSearch, translation }) => {
   const handleInputChange = (e) => {
     setInputValue(e.target.value);
   };
-  const postData = async (inputValue) => {
-    const url = 'http://127.0.0.1:5000/find-information';
-    const data = { query: inputValue };
-
-    try {
-      const response = await fetch(url, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(data),
-      });
-
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-
-      const result = await response.json();
-      setResponse(result.response[0]);
-    } catch (error) {
-      console.error('Error:', error);
-    }
-  };
 
   const handleSubmit = (e) => {
-    setResponse('')
     e.preventDefault();
     handleSearch(inputValue);
-    postData(inputValue);
-    
   };
 
   return (
@@ -75,18 +48,16 @@ const Search = ({ selectedWord, handleSearch, translation }) => {
         <div ref={inputRef}>
           <p className='tracking-wide text-blue-800 font-medium text-center mb-3'><span className='font-semibold text-lg'>Kiswahili</span> Explanation</p>
           <div className='bg-gray-100 text-gray-700 border border-gray-300 overflow-y-hidden w-[500px] h-[400px] rounded-md'>
-            {/* Kiswahili translation can go here */}
-              {translation && (
-              <div className='p-4 tracking-wide leading-7 h-[100%] overflow-y-auto scrollcontainer'>{translation.kiswahili}</div>
+              {englishText && (
+              <div className='p-4 tracking-wide leading-7 h-[100%] overflow-y-auto scrollcontainer'>{englishText}</div>
             )}
           </div>
         </div>
-        {/* <div className='w-0.5 rounded-md bg-yellow' /> */}
         <div>
           <p className='tracking-wide text-blue-800 font-medium text-center mb-3'><span className='font-semibold text-lg'>English</span> Explanation</p>
           <div className='bg-gray-100 text-gray-700 border border-gray-300 overflow-y-hidden w-[500px] h-[400px] rounded-md'>
-            {translation && (
-              <div className='p-4 tracking-wide leading-7 h-[100%] overflow-y-auto scrollcontainer'>{translation.english}</div>
+            {kiswahiliText && (
+              <div className='p-4 tracking-wide leading-7 h-[100%] overflow-y-auto scrollcontainer'>{kiswahiliText}</div>
             )}
           </div>
         </div>
