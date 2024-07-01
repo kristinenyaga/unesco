@@ -53,7 +53,9 @@ function App() {
       }
 
       const result = await response.json();
-      if(result.response[0]){
+      console.log(result);
+      if (result.response[0]) {
+        console.log(result.response[0]);
         setResponseData(result.response[0]);
         separateLanguages(responseData)
       }
