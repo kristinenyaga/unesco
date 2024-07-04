@@ -28,7 +28,7 @@ const Search = ({ selectedWord, handleSearch, englishText,kiswahiliText }) => {
     <div className='mt-24 max-w-[1300px] mx-auto' id='search'>
       <p className='mb-5 text-sm font-bold tracking-wide text-center text-gray-500'>
         Word explanation</p>
-      <p className='text-center text-[28px] mb-7 text-black max-w-[500px] mx-auto'>Enter a word to get its explanation in <span className='text-blue-200 font-medium'>Kiswahili and English</span></p>
+      <p className='text-center text-[25px] mb-7 text-black max-w-[500px] mx-auto'>Enter an english or kiswahili word to get its explanation in <span className='text-blue-200 font-medium'>Kiswahili / English</span></p>
       <form className="mb-5 relative" onSubmit={handleSubmit}>
         <div>
           <input
@@ -44,10 +44,10 @@ const Search = ({ selectedWord, handleSearch, englishText,kiswahiliText }) => {
           </button>
         </div>
       </form>
-      <div className='mt-10 flex justify-between px-10'>
+      <div className='mt-10 flex lg:justify-between justify-center gap-10 lg:gap-0 px-10'>
         <div ref={inputRef}>
           <p className='tracking-wide text-blue-800 font-medium text-center mb-3'><span className='font-semibold text-lg'>English</span> Explanation</p>
-          <div className='bg-gray-100 text-gray-700 border border-gray-300 overflow-y-hidden w-[500px] h-[400px] rounded-md'>
+          <div className='bg-gray-100 text-gray-700 border border-gray-300 overflow-y-hidden lg:w-[500px] w-[400px] h-[400px] rounded-md'>
               {englishText && (
               <div className='p-4 tracking-wide leading-7 h-[100%] overflow-y-auto scrollcontainer'>{englishText}</div>
             )}
@@ -55,7 +55,7 @@ const Search = ({ selectedWord, handleSearch, englishText,kiswahiliText }) => {
         </div>
         <div>
           <p className='tracking-wide text-blue-800 font-medium text-center mb-3'><span className='font-semibold text-lg'>Kiswahili</span> Explanation</p>
-          <div className='bg-gray-100 text-gray-700 border border-gray-300 overflow-y-hidden w-[500px] h-[400px] rounded-md'>
+          <div className='bg-gray-100 text-gray-700 border border-gray-300 overflow-y-hidden lg:w-[500px] w-[400px] h-[400px]  rounded-md'>
             {kiswahiliText && (
               <div className='p-4 tracking-wide leading-7 h-[100%] overflow-y-auto scrollcontainer'>{kiswahiliText}</div>
             )}
